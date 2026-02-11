@@ -50,7 +50,8 @@ LLM_CHAT_APP/
 ### 1️⃣ Clone the repository
 
 ```
-git clone <your-repo-url>
+git clone https://github.com/pratyush-das-git/LLM_CHAT_APP.git
+
 cd LLM_CHAT_APP
 ```
 
@@ -105,7 +106,7 @@ python -m app.main
 You should see:
 
 ```
-🤖 Industry Chatbot — type 'exit' to quit
+ Welcome to the AI Chatbot! Type 'exit' to quit.
 ```
 
 ---
@@ -126,13 +127,7 @@ Response + Logging
 
 The chatbot maintains conversation context and enforces structured AI behavior.
 
----
 
-## 🔒 Security Notes
-
-* `.env` is ignored via `.gitignore`
-* API keys must never be committed
-* Rotate keys if exposed
 
 ---
 
